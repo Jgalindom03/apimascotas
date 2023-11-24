@@ -14,7 +14,7 @@ if (!MONGO_URL) {
 
 await mongoose.connect(MONGO_URL);
 
-//nuevo servidor en Deno Deploy
+
 
 const server = new ApolloServer({
   typeDefs,
